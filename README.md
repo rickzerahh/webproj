@@ -1,44 +1,30 @@
-Portfólio + Jogo da Forca — React Native + Expo
+# 📱 Portfólio + Jogo da Forca — React Native + Expo
 
-Este projeto é um currículo/portfólio interativo desenvolvido em React Native com Expo, contendo diversas telas apresentando informações acadêmicas, profissionais, projetos e um jogo da forca totalmente jogável dentro do app, como solicitado nos requisitos da disciplina.
+Este projeto é um **currículo/portfólio interativo** desenvolvido em **React Native com Expo**, contendo diversas telas apresentando informações acadêmicas, profissionais, projetos e um **jogo da forca totalmente jogável dentro do app**.
 
-📌 Tecnologias Utilizadas
-🧩 Frameworks e Ferramentas
+---
 
-React Native
+## 📌 Tecnologias Utilizadas
 
-Expo
+### **🧩 Frameworks e Ferramentas**
+- React Native
+- Expo
+- Expo Router
+- React Hooks
 
-Expo Router (navegação entre telas)
+### **🎨 Estilização**
+- StyleSheet nativo
+- Componentes reutilizáveis (Navbar, SectionTitle etc.)
 
-Expo CLI
+### **🧱 Estrutura e Componentização**
+- App dividido em telas usando Expo Router
+- Componentes reutilizáveis para Navbar, cartões de projeto, títulos de seção e layout global
 
-React Hooks
+---
 
-🎨 Estilização
+## 🗂️ Estrutura do App
 
-StyleSheet nativo
-
-Componentes reutilizáveis (Navbar, SectionTitle etc.)
-
-🧱 Estrutura e Componentização
-
-App dividido em telas usando Expo Router
-
-Componentes reutilizáveis para:
-
-Navbar fixa
-
-Cartões de projeto
-
-Títulos de seção
-
-Layout global
-
-🗂️ Estrutura do App
-
-O app segue a seguinte arquitetura no diretório app/:
-
+```
 app/
 │── index.js (Home)
 │── sobre.js
@@ -47,105 +33,78 @@ app/
 │── projetos.js
 │── jogo.js   ← Tela do jogo da forca
 
-
-Além disso:
-
 components/
 │── Navbar.jsx
 │── SectionTitle.jsx
 │── ProjectCard.jsx
+
 theme/
 │── styles.js
+
 assets/
 │── curriculo.png (scrollable na tela Sobre)
+```
 
-🎮 Jogo da Forca
+---
 
-O jogo foi implementado nativamente, sem WebView, cumprindo o requisito da disciplina.
+## 🎮 Jogo da Forca
 
-Funcionalidades do jogo:
+Funcionalidades:
+- Palavras aleatórias
+- Teclado virtual
+- Contador de tentativas
+- Sistema de vitória e derrota
+- Boneco da forca mudando conforme erros
+- Botão para reiniciar a partida
+- Feedback visual de letras tentadas
 
-Palavras aleatórias
+A tela do jogo mantém a **navbar fixa** e o estilo unificado com o restante do app.
 
-Teclado virtual
+---
 
-Contador de tentativas
+## 🏠 Telas Implementadas
 
-Sistema de vitória e derrota
+- **Home:** Apresentação do usuário (nome, título, imagem e links principais)  
+- **Sobre:** Imagem scrollável do currículo + informações e tecnologias utilizadas  
+- **Experiência Acadêmica:** Histórico estudantil  
+- **Experiência Profissional:** Experiências relevantes  
+- **Projetos:** Cards com descrição de projetos desenvolvidos  
+- **Jogo:** Tela do jogo da forca funcional integrado ao app  
 
-Imagens da forca mudando conforme erros
+---
 
-Botão para reiniciar a partida
+## ▶️ Como Rodar o Projeto
 
-Feedback visual de letras tentadas
-
-A tela é totalmente integrada ao layout do portfólio, mantendo:
-
-Navbar fixa
-
-Estilo unificado com o restante do app
-
-Cores e tipografia consistentes
-
-🏠 Telas Implementadas
-✔️ Home
-
-Apresentação do usuário (nome, título, imagem e links principais).
-
-✔️ Sobre
-
-Imagem scrollável do currículo (curriculo.png)
-
-Informações gerais
-
-Tecnologias utilizadas no desenvolvimento
-
-✔️ Experiência Acadêmica
-
-Descrição do histórico estudantil.
-
-✔️ Experiência Profissional
-
-Experiências reais ou simuladas relevantes.
-
-✔️ Projetos
-
-Cards com descrição de projetos desenvolvidos.
-
-✔️ Jogo
-
-Tela contendo o jogo da forca funcional integrado ao app.
-
-▶️ Rodando o Projeto
-🔧 1. Instale as dependências:
+### 1. Instale as dependências:
+```bash
 npm install
+```
 
-🚀 2. Inicie o Expo:
+### 2. Inicie o Expo:
+```bash
 npx expo start
+```
 
-📱 3. Execute no celular ou emulador:
+### 3. Execute no celular ou emulador:
+- Via **Expo Go** (Android/iOS)
+- Via emulador Android Studio
+- Via simulador iOS (Mac)
 
-Via Expo Go (Android/iOS)
+---
 
-Via emulador Android Studio
+## 📄 Requisitos Atendidos
 
-Via simulador iOS (Mac)
+- App criado em React Native + Expo  
+- Navegação usando Expo Router  
+- Telas obrigatórias implementadas  
+- Jogo funcionando dentro do app  
+- Projeto organizado e responsivo  
+- Código estruturado com componentes reutilizáveis  
 
-📄 Requisitos da Avaliação — Atendidos
+---
 
-✔️ App criado em React Native + Expo
+## 📬 Contato
 
-✔️ Navegação usando Expo Router
-
-✔️ Telas obrigatórias implementadas
-
-✔️ Jogo funcionando dentro do app
-
-✔️ Projeto organizado e responsivo
-
-✔️ Código estruturado com componentes reutilizáveis
-
-📬 Contato
-
-Desenvolvido por: Ricardo André
-LinkedIn: https://www.linkedin.com/in/ricardoandrejunior/
+**Desenvolvido por:** Ricardo Jr  
+**GitHub:** https://github.com/SEU_USUARIO  
+**LinkedIn:** https://www.linkedin.com/in/SEU_PERFIL  
