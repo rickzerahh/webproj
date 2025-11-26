@@ -102,9 +102,3 @@ npx expo start
 - Código estruturado com componentes reutilizáveis  
 
 ---
-
-## 📬 Contato
-
-**Desenvolvido por:** Ricardo Jr  
-**GitHub:** https://github.com/SEU_USUARIO  
-**LinkedIn:** https://www.linkedin.com/in/SEU_PERFIL  
